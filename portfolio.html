@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin:0px;
+            padding: 0px;
+        }
+        nav{
+            width: 100%;
+            height: 6vh;
+            background-color: brown;
+            color: beige;
+            display:flex;
+            justify-content:space-between;
+            align-items: center;
+            position:fixed;
+            
+
+        }
+        nav a{
+            color:beige;
+            font-size: 20px;
+            text-decoration: none;
+            margin-right: 70px;;
+
+            
+        }
+        .img1{
+            width: 300px;
+            height: 400px;
+            float: right;
+            padding-right: 290px;
+            padding-top: 150px;
+            border-radius: 25%;
+        }
+        .heading1{
+            padding-top: 250px;
+            padding-left: 90px;
+        }
+        .h2{
+            padding-left: 40px;
+        }
+        .one{
+            margin: 70px;
+            width: 50px;
+            height: 30px;
+        }
+        .homeid{
+            background:linear-gradient(to top, brown,burlywood ,beige );
+            width: 100%;
+            height: 100vh;
+        }
+        .projectsid{
+            background:linear-gradient(to top,brown,burlywood ,beige);
+            width: 100%;
+            height: 190vh;
+        }
+        .heading2{
+            padding-top:50px ;
+            color: crimson;
+        }
+        .heading3{
+            padding-top: 20px;
+            color: brown;
+
+        }
+        .para2{
+            font-size: 20px;
+            font-family: cursive;
+        }
+        .img2{
+            width: 300px;
+            height: 300px;
+            padding-left:290px;
+            padding-top: 20px;
+         }
+        .about{
+            background:linear-gradient(to top,beige,brown,burlywood  );
+            width: 100%;
+            height: 100vh;
+        }
+        .heading4{
+            padding-top: 60px;
+            font-size: 38px;
+            color: bisque;
+        }
+        pre{
+            font-size: 30px;
+            font-family: sans-serif;
+        }
+        .list{
+            padding-left: 120px;
+            font-size: 30px;
+            font-family: sans-serif;
+        }
+        .bt1{
+            width: 100px;
+            height: 50px;
+            background-color: bisque;
+            color: brown;
+            margin-left: 90px;
+            margin-top: 30px;
+        }
+        .contact{
+            width: 100%;
+            height: 100vh;
+            background:linear-gradient(to top,beige,brown,burlywood  );
+            font-size: 39px;
+            padding-top: 50px;
+            padding-left: 90px;
+        }
+        .mobile{
+            font-size: 34px;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            color: brown;
+            padding-top: 30px;
+            
+        }
+
+        
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <h2 class="h2">AHP </h2>
+        </div>
+        <div>
+          <a href="#homeid">Home</a>  
+          <a href="#projectsid">Projects</a>
+          <a href="#aboutid">About</a>
+          <a href="#contactid">Contact</a>
+        </div>
+
+    </nav>
+    <main>
+
+        <div>
+            <img class="img1" src="./harp.jpg" alt="me">
+        
+        <div class="homeid" id="homeid">
+            <h1 class="heading1">I Am<br>
+            Fullstack Developer.</h1>
+
+            <button class="bt1" id="resumeid">
+                 <a href="#resumeid">
+                    <a href="./resume.html">Resume</a>
+
+                 </a>
+            </button>
+
+        </div></div>
+        <hr>
+        <div class="projectsid" id="projectsid">
+            <div>
+                <h1 class="heading2"><u>PROJECTS</u></h1>
+            <h2 class="heading3">1.Facial Emotion Detection and represent through emojis</h2>
+            <p class="para2">
+                A Desktop application using deep learning which is used to detect the emotions of humans
+                and represent through emojis which helps to communicate ones feelings. The deep learning
+                libraries used are Pytorch, Tensor flow and image processing libraries are tkinter and
+                python programming.</p>
+            <img class="img2"  src="https://www.tandfonline.com/cms/asset/c06f8134-4f14-4a6b-9afb-a4c5a1c71be8/ibij_a_2181401_f0001_oc.jpg" alt="">
+            
+
+        
+            <h2 class="heading3">2.Student performance in trainings with Mern Stack</h2>
+            <p class="para2">
+                This is a website created to analyze the performance of students in trainings as separating
+                based on competitive codings.Its useful for the students as well as the university to check
+                out the students regularly. The technologies used are Mongo db, Express js, Node js, React js.</p>
+            <img class="img2" src="https://media.springernature.com/lw1200/springer-static/image/art%3A10.1007%2Fs42979-022-01457-7/MediaObjects/42979_2022_1457_Fig12_HTML.png" alt="">
+            
+
+
+            <h2 class="heading3">3.Loan Prediction using Deep Learning</h2>
+            <p class="para2">
+                This project is using machine learning and deep learning where we developed a loan prediction
+                system so the system automatically selects the eligible candidates to whom the loans are applicable
+                .This is beneficial for both Bank and applicant.</p>
+            <img  class="img2"src="https://media.geeksforgeeks.org/wp-content/uploads/20220810103816/1.PNG" alt="">
+        </div>
+        <hr>
+
+
+        <div class="about" id="aboutid">
+            <h2 class="heading4">About Me</h2>
+            <pre>
+            Hello!My name is Hari Priya and I am a fullstack developer,proficient in coding and maintaining
+            websites to ensure functionality and responsiveness.I am always looking for new oppurtunites to
+            apply and expand my knowledge by leveraging my skills while growing in a collaborative environment
+            and enhance my experience  through continuous hardwork.I am a 2024 graduate in computer sceince
+            from cmrcet with a decent cgpa.I love learning new things and always ready to face new challenges.
+            I started my web development journey through a academy and progressing daily through new skills.</pre><br><br>
+            
+            <div class="list"><u>Skills: </u> 
+            <ul>
+                <li type="disc">python</li>
+                <li type="disc">html</li>
+                <li type="disc">css</li>
+                <li type="disc">c++</li> </ul>
+        </div>
+    </div>
+
+
+
+    <div class="contact"  id="contactid">
+        <h2>Contact: </h2>
+        <p class="mobile">mobile - 9704765478 <br>
+           email - haripriya2@gmail.com
+           
+        </p>
+    </div>
+
+
+
+    </main>
+</body>
+</html>
